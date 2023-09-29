@@ -10,6 +10,7 @@ void shuffle(int *array) {
     for (int i = MAX - MIN - 1; i > 0; i--) {
         int j = rand() % (i + 1); // linha para gerar numeros aleatorios
         //int j = (i); // linha para gerar numeros em ordem crescente
+        //int j = ;     //linha para gerar em ordem decrescente
         int tmp = array[j];
         array[j] = array[i];
         array[i] = tmp;
