@@ -3,13 +3,13 @@
 #include <time.h>
 
 #define MIN 1
-#define MAX 101 // Alterar aqui para 101, 1 001, 10 001, 1 000 001
-#define QTDE 100 //precisa ser menor que MAX
+#define MAX 11 // Alterar aqui para 101, 1 001, 10 001, 1 000 001
+#define QTDE 10 //precisa ser menor que MAX
 
 void shuffle(int *array) {
     for (int i = MAX - MIN - 1; i > 0; i--) {
-        //int j = rand() % (i + 1);
-        int j = (i);
+        int j = rand() % (i + 1); // linha para gerar numeros aleatorios
+        //int j = (i); // linha para gerar numeros em ordem crescente
         int tmp = array[j];
         array[j] = array[i];
         array[i] = tmp;
