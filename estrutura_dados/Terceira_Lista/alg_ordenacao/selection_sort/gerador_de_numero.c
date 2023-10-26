@@ -3,7 +3,7 @@
 #include <time.h>
 
 #define MIN 1
-#define MAX 11 // Alterar aqui para 101, 1 001, 10 001, 1 000 001
+#define MAX 10001 // Alterar aqui para 101, 1 001, 10 001, 1 000 001
 #define QTDE 10 //precisa ser menor que MAX
 
 void shuffle(int *array) {
@@ -18,7 +18,7 @@ void shuffle(int *array) {
 int a;
 int main(void) {
     FILE *geRar;
-	geRar = fopen("100_Numeros.txt","w");
+	geRar = fopen("10000_Numeros.txt","w");
 
     srand(time(NULL));
 
