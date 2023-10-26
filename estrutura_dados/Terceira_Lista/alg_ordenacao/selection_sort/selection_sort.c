@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "temporizador.h"
 
 
 void swap(int * xp, int * yp)
@@ -36,7 +37,10 @@ int main()
 {
     int arr[] = { 64, 25, 12, 22, 11 }; 
     int n = sizeof(arr) / sizeof(arr[0]); 
+    clock_t init = initTime();
     selectionSort(arr, n); 
+    clock_t final = finalTime();
+    clock_t total = totalTime(final, init);
     printf("Sorted array: \n"); 
     showArray(arr, n); 
     return 0;  
