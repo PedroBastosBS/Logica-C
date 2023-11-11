@@ -1,0 +1,26 @@
+{
+  "name": "alg_ordenacao_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asciichart": "^1.5.25",
+    "asciichart-cli": "^1.1.0",
+    "canvas": "^2.11.2",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "cli-chart": "^0.3.1",
+    "cli-graph": "^3.2.2",
+    "cli-pie": "^2.4.2",
+    "plotly": "^1.0.6",
+    "random": "^4.1.0",
+    "terminal-bar": "^0.0.3"
+  }
+}
