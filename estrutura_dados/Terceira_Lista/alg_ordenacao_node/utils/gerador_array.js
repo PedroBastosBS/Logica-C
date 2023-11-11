@@ -1,4 +1,4 @@
-const random = require('random');
+import random from 'random';
 
 function generateRandomArray(size) {
   const array = Array.from({ length: size }, () => random.int(1, size + 1));
