@@ -1,0 +1,4 @@
+Hair: Loiro, Eye: Azul, Skin: Branca
+People: João Maria
+Hair: Preto, Eye: Verde, Skin: Parda
+People: Carlos

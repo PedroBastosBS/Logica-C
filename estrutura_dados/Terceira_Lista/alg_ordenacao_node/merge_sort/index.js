@@ -68,7 +68,7 @@ function merge(arr, l, m, r) {
   const array3 = generateArrays([10001]);
   const array4 = generateArrays([100001]);
   const array5 = generateArrays([10000001]);
-
+  console.log(array5);
   const arr_size1 = array1.length;
   const arr_size2 = array2.length;
   const arr_size3 = array3.length;
